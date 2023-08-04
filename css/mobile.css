@@ -56,8 +56,8 @@
 
    #text-carousel-intro-section .caption {
 	position: relative;
-	top: 50%;
-	margin-top: -30px;
+	/* top: 50%; */
+	margin-top: 340px;
 }
 
 #text-carousel-intro-section {
@@ -87,12 +87,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-	#text-carousel-intro-section .caption {
-		position: relative;
-		top: 0%;
-		margin-top: -47px;
-	}
- 
+	
 	/* Team */
 	.team-item .team-triangle {
 		width: 120px;
@@ -148,7 +143,7 @@
 	/* Text carousel intro section caption */
  #text-carousel-intro-section .caption {
        /* align-items: center; */
-		/* top: 63% !important; */
+		top: 0% !important;
 
 		 /* Removes parallax on caption */
 	}
