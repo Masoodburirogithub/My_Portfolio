@@ -591,74 +591,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 
 /* ===== Begin team ===== */
-.team-item {
-	height: 120px;
-}	
-.team-item .team-triangle {
-	width: 120px;
-	height: 120px;
-	background: transparent;
-	-ms-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	margin: 0 auto;
-	position: relative;
-	top: 25px;
-	box-shadow: 0 0 0 6px #FFFFFF, 0 0 0 7px #dadbdb;
-	overflow: hidden;
-}
-.team-item img {
-    max-width: 100%;
-}
-.team-items {
-	margin-bottom: 50px;
-	padding-top: 10px;
-	margin-top: 0;
-}
-.team-triangle .content {
-	-ms-transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	top: -35px;
-	position: absolute;
-	left: -37px;
-	width: 190px;
-	height: 190px;
-}
-.team-hover {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba( 103, 109, 117, 0.9);
-	opacity: 0;
-	-webkit-transition: opacity 0.4s ease-in; /* For Safari 3.1 to 6.0 */
-    transition: opacity 0.4s ease-in;
-}
-.team-item .team-triangle:hover .team-hover {
-	opacity: 1;
-}
-.team-hover i {
-    color: rgba(255, 255, 255,.75);
-    font-size: 28px;
-    margin-top: 57px;
-    position: relative;
-}
-.team-hover p {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-}
-.team-items .col-md-2:nth-child(7n+5) {
-	clear: left;
-	margin-left: 24.9999999%;
-}
-.team-items .col-md-2:nth-child(7n+1) {
-	clear: left;
-	margin-left: 16.6666666%;
-}
+
 /* ===== End team ===== */
 
 
@@ -844,7 +777,7 @@ p.subtitle {
 }
 .extra-space-l {
 	width: 100%;
-	height: 40px;
+	height: 20px;
 }
 .extra-space-xl {
 	width: 100%;
@@ -861,9 +794,9 @@ p.subtitle {
 .owl-carousel {
 	cursor: e-resize;
 }
-.owl-theme .owl-controls {
+/* .owl-theme .owl-controls {
 	margin-top: 30px;
-}
+} */
 .owl-theme .owl-controls .owl-page span {
 	/* background: rgba(0, 0, 0, 0); */
 	width: 14px;
@@ -933,9 +866,9 @@ p.subtitle {
 
 /* Button blank */
 .btn-blank {
-	border: 3px solid black;
+	border: 3px solid red;
 	color: black;
-	padding: 8px 12px;
+	padding: 10px 15px;
 	display: inline-block;
 	vertical-align: middle;
 	-webkit-transform: translateZ(0);
